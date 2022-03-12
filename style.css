@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+        body {
+            min-height: 75%;
+            background-image: linear-gradient(rgba(47, 80, 141, 0.5), rgba(57, 57, 94, 0.5)), url(office.png);
+            background-position: center;
+            opacity: 0.9;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Verdana;
+            text-align: center;
+        }
+ 
+        form {
+            background-color: rgb(45, 45, 68);
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+ 
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+ 
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+            color: white;
+        }
+ 
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 5px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        h1{
+            margin-top: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: white
+        }
+        h3{
+            color: white;
+        }
